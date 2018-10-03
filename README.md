@@ -3,7 +3,7 @@ services: active-directory
 platforms: javascript
 author: jmprieur
 ---
-
+[Youtube](https://www.youtube.com/watch?v=lpgdNUp3Z_o&t=321s)
 Call an Azure AD protected Web API in an AngularJS Single Page App
 ====================
 
