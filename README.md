@@ -3,9 +3,11 @@ services: active-directory
 platforms: javascript
 author: jmprieur
 ---
-[Youtube](https://www.youtube.com/watch?v=lpgdNUp3Z_o&t=321s)
 Call an Azure AD protected Web API in an AngularJS Single Page App
 ====================
+
+[Youtube](https://www.youtube.com/watch?v=lpgdNUp3Z_o&t=321s)
+
 
 This sample demonstrates the use of ADAL for JavaScript for securing an AngularJS based single page app, implemented with an ASP.NET Web API backend, that calls another ASP.NET Web API using CORS.
 
