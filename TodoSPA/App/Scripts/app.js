@@ -22,14 +22,14 @@ angular.module('todoApp', ['ngRoute','AdalAngular'])
 
         // Map the location of a request to an API to a the identifier of the associated resource
         "https://localhost:44327/":
-            "https://powercanon.onmicrosoft.com/0fcf57de-d3c7-4665-babc-ea411627eaf1",
+            "https://powercanon.onmicrosoft.com/ToGoAPI",
     };
 
     adalProvider.init(
         {
             instance: 'https://login.microsoftonline.com/',
             tenant: 'powercanon.onmicrosoft.com',
-            clientId: '37682253-4bc6-47b5-9023-f80ed1f8312f',
+            clientId: '8c8025e9-6ea9-4c29-abd6-5dd155c61436',
             extraQueryParameter: 'nux=1',
             endpoints: endpoints,
             //cacheLocation: 'localStorage', // enable this for IE, as sessionStorage does not work for localhost.  
